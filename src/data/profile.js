@@ -8,9 +8,7 @@ export const profile = {
   phone: "+221 77 727 06 90",
   github: "https://github.com/sow-aliou",
   linkedin: "https://www.linkedin.com/in/aliou-sow-9a8a233a7/",
-  cvUrl: import.meta.env.DEV
-    ? "http://localhost:5174/"
-    : "https://cv-aliou-sow.vercel.app/",
+  cvUrl: "https://cv-aliou-sow.vercel.app/",
 };
 
 export const navItems = [
