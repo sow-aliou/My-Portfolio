@@ -10,7 +10,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/aliou-sow-9a8a233a7/",
   cvUrl: import.meta.env.DEV
     ? "http://localhost:5174/"
-    : "../Mon CV React/dist/",
+    : "https://cv-aliou-sow.vercel.app/",
 };
 
 export const navItems = [
