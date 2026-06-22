@@ -10,7 +10,7 @@ export const projects = [
     icon: "fas fa-graduation-cap",
     color: "#10b981",
     featured: true,
-    github: "https://github.com/sow-aliou/gestion_scolaire_ecole_elementaire",
+    github: null,
     demo: "https://gestion-scolaire-ecole-elementaire.vercel.app",
   },
   {
@@ -55,7 +55,7 @@ export const projects = [
     icon: "fas fa-search-location",
     color: "#ef4444",
     featured: true,
-    github: "https://github.com/sow-aliou/application_fenal",
+    github: null,
     demo: null,
   },
   {
@@ -69,7 +69,7 @@ export const projects = [
     icon: "fas fa-seedling",
     color: "#34d399",
     featured: false,
-    github: "https://github.com/sow-aliou/projet-bda",
+    github: null,
     demo: null,
   },
   {
