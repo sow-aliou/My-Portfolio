@@ -11,7 +11,7 @@ export const projects = [
     color: "#10b981",
     featured: true,
     github: "https://github.com/sow-aliou/gestion_scolaire_ecole_elementaire",
-    demo: null,
+    demo: "https://gestion-scolaire-ecole-elementaire.vercel.app",
   },
   {
     title: "Simulateur de Trafic Urbain",
