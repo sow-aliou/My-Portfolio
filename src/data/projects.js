@@ -39,7 +39,7 @@ export const projects = [
     color: "#ec4899",
     featured: true,
     github: "https://github.com/sow-aliou/quickticket",
-    demo: null,
+    demo: "https://quickticket.vercel.app",
   },
   {
     title: "FÉÑAL",
