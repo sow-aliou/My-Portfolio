@@ -24,8 +24,8 @@ export const projects = [
     icon: "fas fa-traffic-light",
     color: "#f59e0b",
     featured: true,
-    github: "https://github.com/sow-aliou/project_feu_tricolore",
-    demo: null,
+    github: "https://github.com/sow-aliou/projet_simulation_feu_tricolore",
+    demo: "https://projet-simulation-feu-tricolore.onrender.com/?autoconnect=true&resize=scale",
   },
   {
     title: "QuickTicket",
