@@ -42,6 +42,23 @@ export const projects = [
     demo: "https://quickticket.vercel.app",
   },
   {
+    title: "SafeCode-Exam",
+    objective: "Concevoir une plateforme d'examen en ligne sécurisée pour les établissements universitaires, limitant la triche et centralisant la création, le déroulement et la correction des épreuves.",
+    tools: ["React", "Express.js", "SQLite", "Electron", "Monaco Editor", "Vite", "Docker"],
+    description:
+      "Application web et desktop (mode kiosque) permettant aux enseignants de créer des sessions d'examen (texte, code, UML) et aux étudiants de répondre dans un environnement verrouillé. Intègre un éditeur de code intégré, une minuterie, la sauvegarde automatique des réponses et une interface bilingue (FR/EN).",
+    role: "Développeur Full-Stack (Projet en cours). Conception de l'architecture frontend/backend, implémentation de l'API Express, de la base SQLite et de l'application Electron pour le mode examen sécurisé.",
+    outcomes:
+      "Projet en cours de développement. Modules opérationnels : authentification enseignant/étudiant, création de sessions, salle d'examen avec éditeur Monaco, support multi-types de questions et export des résultats.",
+    reflection:
+      "Ce projet m'a sensibilisé aux contraintes de sécurité des examens numériques (mode kiosque, persistance des copies, gestion du temps) et m'a permis d'explorer le déploiement hybride web + desktop avec Electron.",
+    icon: "fas fa-shield-alt",
+    color: "#6366f1",
+    featured: true,
+    github: "https://github.com/sow-aliou/safecode-exam",
+    demo: null,
+  },
+  {
     title: "FÉÑAL",
     objective: "Faciliter la retrouvaille d'objets perdus et le signalement de personnes disparues au Sénégal, via une plateforme citoyenne sécurisée et anonyme.",
     tools: ["Spring Boot", "React", "Flutter", "Python", "PostgreSQL", "Docker", "IA / OCR"],
