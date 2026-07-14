@@ -56,7 +56,7 @@ export const projects = [
     color: "#6366f1",
     featured: true,
     github: "https://github.com/sow-aliou/safecode-exam",
-    demo: null,
+    demo: "https://safecode-exam.onrender.com/",
   },
   {
     title: "FÉÑAL",
