@@ -15,7 +15,7 @@ export default function About() {
 
       <div className="about__timeline reveal">
         <h3 className="about__timeline-title">
-          <i className="fas fa-university" /> Formation & Études
+          <i className="fas fa-graduation-cap" /> Formation & Études
         </h3>
         <div className="timeline__list">
           {education.map((edu, i) => (

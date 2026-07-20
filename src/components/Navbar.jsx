@@ -38,7 +38,7 @@ export default function Navbar({ activeSection, onNavClick }) {
           <a
             href={profile.cvUrl}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="navbar__link navbar__link--cv"
           >
             <i className="fas fa-file-alt" /> CV
@@ -75,7 +75,7 @@ export default function Navbar({ activeSection, onNavClick }) {
         <a
           href={profile.cvUrl}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="navbar__mobile-link"
         >
           <i className="fas fa-file-alt" /> CV

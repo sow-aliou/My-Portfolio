@@ -6,10 +6,16 @@ export const skillCategories = [
     tags: ["JavaScript", "PHP", "Python", "Java", "C", "Dart"],
   },
   {
-    title: "Frameworks",
+    title: "Frameworks & Librairies",
     icon: "fas fa-cubes",
     color: "#22c55e",
-    tags: ["React", "Node.js", "Laravel", "Spring Boot", "Flutter"],
+    tags: ["React", "Node.js", "Laravel", "Spring Boot", "Flutter", "Tailwind CSS"],
+  },
+  {
+    title: "Tests & Qualité Logicielle",
+    icon: "fas fa-vial",
+    color: "#8b5cf6",
+    tags: ["JUnit", "PHPUnit", "Tests Unitaires", "Tests d'Intégration"],
   },
   {
     title: "Bases de données",
@@ -21,13 +27,13 @@ export const skillCategories = [
     title: "Outils & DevOps",
     icon: "fas fa-tools",
     color: "#ec4899",
-    tags: ["Git", "GitHub", "Docker"],
+    tags: ["Git", "GitHub", "GitLab", "Docker", "Jira"],
   },
   {
     title: "Conception",
     icon: "fas fa-draw-polygon",
     color: "#d97706",
-    tags: ["UML", "Merise"],
+    tags: ["UML", "Merise", "Figma"],
   },
 ];
 

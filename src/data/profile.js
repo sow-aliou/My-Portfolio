@@ -2,7 +2,7 @@ export const profile = {
   name: "Aliou Sow",
   title: "Développeur Full-Stack Junior",
   summary:
-    "Étudiant en Licence 3 d'Informatique (Génie Logiciel) et développeur passionné par l'Intelligence Artificielle et le développement de solutions logicielles innovantes. Rigoureux et orienté résultats, je m'efforce de concevoir des architectures performantes répondant à des problématiques complexes.",
+    "Diplômé d'une Licence en Informatique (Génie Logiciel) et développeur passionné par l'Intelligence Artificielle et le développement de solutions logicielles innovantes. Rigoureux et orienté résultats, je m'efforce de concevoir des architectures performantes répondant à des problématiques complexes.",
   location: "Thiès, Sénégal",
   email: "sow8.aliou@gmail.com",
   phone: "+221 77 727 06 90",
@@ -13,10 +13,10 @@ export const profile = {
 
 export const navItems = [
   { id: "home", label: "Accueil", icon: "fas fa-home" },
-  { id: "about", label: "Parcours", icon: "fas fa-user" },
+  { id: "about", label: "Parcours", icon: "fas fa-user-graduate" },
   { id: "experience", label: "Expérience", icon: "fas fa-briefcase" },
   { id: "skills", label: "Compétences", icon: "fas fa-layer-group" },
-  { id: "projects", label: "Projets", icon: "fas fa-briefcase" },
+  { id: "projects", label: "Projets", icon: "fas fa-rocket" },
   { id: "extras", label: "Certifications & Activités", icon: "fas fa-award" },
   { id: "contact", label: "Contact", icon: "fas fa-envelope" },
 ];

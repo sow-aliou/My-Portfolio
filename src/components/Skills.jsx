@@ -59,7 +59,7 @@ export default function Skills() {
 
         <div className="skills__languages">
           <h3>
-            <i className="fas fa-globe" /> Langues
+            <i className="fas fa-language" /> Langues
           </h3>
           <div className="skills__lang-list">
             {languages.map((lang, i) => (
