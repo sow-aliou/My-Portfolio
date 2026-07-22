@@ -44,7 +44,7 @@ export const projects = [
   {
     title: "Simulateur de Trafic Urbain",
     objective: "Concevoir un système de simulation graphique et algorithmique permettant d'analyser et d'optimiser la régulation des flux de véhicules à un carrefour routier complexe équipé de feux tricolores intelligents.",
-    tools: ["Python", "Turtle Graphics", "SQLite", "POO"],
+    tools: ["Python", "Turtle Graphics", "SQLite"],
     description: "Application informatique combinant une interface graphique dynamique (développée avec Python Turtle) et un moteur de calcul algorithmique. Le système génère un flux continu de véhicules aux comportements aléatoires (vitesse, direction, arrêt), gère la priorité selon les règles du code de la route et adapte le cycle des feux tricolores en fonction de la densité de circulation détectée.",
     role: "Développeur Principal (Projet en binôme universitaire). Conception de la logique orientée objet (classes Véhicule, Feu, Carrefour), écriture de la boucle principale de rendu graphique (Game Loop), implémentation de l'algorithme de détection de collision et mise en place de la base de données SQLite pour l'enregistrement des métriques de trafic.",
     outcomes: "Rendu visuel fluide à 60 IPS, génération de graphiques statistiques d'attente moyenne et démonstration de la réduction théorique de 15% du temps d'immobilisation des véhicules grâce au système de feux adaptatifs.",
