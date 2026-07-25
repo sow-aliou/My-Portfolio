@@ -3,7 +3,7 @@ export const skillCategories = [
     title: "Langages",
     icon: "fas fa-code",
     color: "#10b981",
-    tags: ["JavaScript", "PHP", "Python", "Java", "C", "Dart"],
+    tags: ["TypeScript", "JavaScript", "PHP", "Python", "Java", "C", "Dart"],
   },
   {
     title: "Frameworks & Librairies",
