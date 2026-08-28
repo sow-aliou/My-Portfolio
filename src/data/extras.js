@@ -1,3 +1,6 @@
+import attestation from "../assets/attestations/attestion_de_participation.jpeg";
+import diplome from "../assets/attestations/diplome_de_participation.jpeg";
+
 export const certifications = [
   {
     title: "Créez une application Java avec Spring Boot",
@@ -10,6 +13,20 @@ export const certifications = [
     issuer: "OpenClassrooms",
     date: "2026",
     icon: "fab fa-react",
+  },
+  {
+    title: "Attestation de Participation – Night Coding",
+    issuer: "Night Coding UIDT",
+    date: "2025",
+    icon: "fas fa-moon",
+    image: attestation,
+  },
+  {
+    title: "Diplôme de Participation – Night Coding",
+    issuer: "Night Coding UIDT",
+    date: "2025",
+    icon: "fas fa-award",
+    image: diplome,
   },
 ];
 

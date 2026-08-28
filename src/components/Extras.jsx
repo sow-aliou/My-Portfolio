@@ -30,6 +30,16 @@ export default function Extras() {
                   <p>
                     {cert.issuer} • <span>{cert.date}</span>
                   </p>
+                  {cert.image && (
+                    <a
+                      href={cert.image}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="extras__cert-link"
+                    >
+                      <i className="fas fa-eye" /> Voir l'attestation
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
